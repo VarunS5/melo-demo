@@ -1,0 +1,13 @@
+dependency_overrides:
+  distributor:
+    path: apps/distributor
+  retailer:
+    path: apps/retailer
+  order_retailer:
+    path: packages/order_retailer
+  auth:
+    path: packages/auth
+  order_distributor:
+    path: packages/order_distributor
+  order_common:
+    path: packages/order_common

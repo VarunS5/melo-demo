@@ -1,0 +1,18 @@
+fileignoreconfig:
+- filename: pubspec.lock
+  checksum: 58400d4d822528a9bae5b275430eb6326ada7f05a2ed850bcc2094dc7aa5a020
+- filename: .metadata
+  checksum: 0f16a8b7c6a2c80298851d561e8eceac3055641c7fd5996827401c6c775d4ca5
+- filename: apps/distributor/.metadata
+  checksum: 102107c633d470f1c3f322f6a20668af720ca1625dc3c274ab846443716d85a1
+- filename: packages/order_retailer/.metadata
+  checksum: 0a394511246312678627cadce2dbf32d3725012b268ace88518c0b445a6ebeac
+- filename: apps/retailer/.metadata
+  checksum: f7c979198434771f9c5a820e7c221c859506d87c4ef97e8bfcb4a7f774f5fd12
+- filename: packages/order_common/.metadata
+  checksum: 946dda8dda5288ce2efbc3c47a0aa782b13448a64a51e84f032301ae27d8b04e
+- filename: packages/auth/.metadata
+  checksum: 6fe87479c3209b5bd5adc86cc9b00307f988f4f2f26283418bf97b05ceee9c90
+- filename: packages/order_distributor/.metadata
+  checksum: 8f99d980ccee883c7579281f23e5235375ec3d127c3db05dc944a61302e148e8
+version: ""
