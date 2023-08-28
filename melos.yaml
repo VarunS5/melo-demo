@@ -9,3 +9,7 @@ packages:
 scripts:
   analyze:
     exec: dart analyze
+  pub-get:
+    exec: flutter pub get
+  flutter-analyze:
+    exec: flutter analyze
