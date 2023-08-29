@@ -14,14 +14,16 @@ class Login extends StatelessWidget {
       appBar: AppBar(
         title: Text(title),
       ),
-      body: Column(children: [
-        Text("This is the login page for $title"),
-        ElevatedButton(
-            onPressed: () {
-              onLoginPressed(context);
-            },
-            child: const Text("Login")),
-      ]),
+      body: Center(
+        child: Column(children: [
+          Text("This is the login page for $title"),
+          ElevatedButton(
+              onPressed: () {
+                onLoginPressed(context);
+              },
+              child: const Text("Login")),
+        ]),
+      ),
     );
   }
 }
