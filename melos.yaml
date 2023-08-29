@@ -9,6 +9,8 @@ packages:
 scripts:
   analyze:
     exec: dart analyze
+  pub_get:
+    exec: flutter pub get
   build:distributor:
     run: |
       melos exec -c 6 --fail-fast -- \
