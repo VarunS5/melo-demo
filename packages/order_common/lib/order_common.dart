@@ -11,7 +11,7 @@ class NewOrder extends StatelessWidget {
         appBar: AppBar(
           title: const Text("New Order"),
         ),
-        body: const Column(
+        body: Column(
           children: [Text("Screen for placing new order")],
         ));
   }
