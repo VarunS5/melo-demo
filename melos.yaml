@@ -13,3 +13,5 @@ scripts:
     exec: flutter pub get
   flutter-analyze:
     exec: flutter analyze
+  generate-coverage:
+    exec: flutter test --coverage
