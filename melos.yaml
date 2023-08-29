@@ -18,12 +18,10 @@ scripts:
       dirExists:
         - android
       scope: 'distributor'
-    test:distributor:
+  test:
       run: |
         melos exec -c 6 --fail-fast -- \
           "flutter test"
-      description: test distributor app.
       packageFilters:
       dirExists:
         - test
-      scope: 'distributor'

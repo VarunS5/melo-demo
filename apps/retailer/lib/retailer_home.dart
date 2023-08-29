@@ -11,20 +11,24 @@ class RetailerHome extends StatelessWidget {
       appBar: AppBar(
         title: const Text("Retailer home"),
       ),
-      body: Column(children: [
-        ElevatedButton(
-            onPressed: () {
-              Navigator.of(context)
-                  .push(MaterialPageRoute(builder: (ctx) => const NewOrder()));
-            },
-            child: const Text("New Orders")),
-        ElevatedButton(
-            onPressed: () {
-              Navigator.of(context).push(
-                  MaterialPageRoute(builder: (ctx) => const MyInvoices()));
-            },
-            child: const Text("Invoices"))
-      ]),
+      body: Center(
+        child: Column(children: [
+          ElevatedButton(
+            key: const Key("New Orders"),
+              onPressed: () {
+                Navigator.of(context)
+                    .push(MaterialPageRoute(builder: (ctx) => const NewOrder()));
+              },
+              child: const Text("New Orders")),
+          ElevatedButton(
+              key: const Key("Invoices"),
+              onPressed: () {
+                Navigator.of(context).push(
+                    MaterialPageRoute(builder: (ctx) => const MyInvoices()));
+              },
+              child: const Text("Invoices"))
+        ]),
+      ),
     );
   }
 }

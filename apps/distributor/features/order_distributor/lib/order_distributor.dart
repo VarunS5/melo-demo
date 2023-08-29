@@ -11,9 +11,11 @@ class SyncOfflineOrder extends StatelessWidget {
       appBar: AppBar(
         title: const Text("Offline order"),
       ),
-      body: Column(children: [
-        Text("Screen to sync offline order")
-      ]),
+      body: Center(
+        child: Column(children: [
+          Text("Screen to sync offline order")
+        ]),
+      ),
     );
   }
 

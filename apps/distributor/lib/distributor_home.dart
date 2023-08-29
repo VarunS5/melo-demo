@@ -11,15 +11,18 @@ class DistributorHome extends StatelessWidget {
       appBar: AppBar(
         title: const Text("Distributor home"),
       ),
-      body: Column(children: [
-        ElevatedButton(onPressed: () {
-         Navigator.of(context).push(MaterialPageRoute(builder: (ctx)=> const NewOrder()));
-        }, child: const Text("New Orders")),
-        ElevatedButton(
-            onPressed: () {
-              Navigator.of(context).push(MaterialPageRoute(builder: (ctx)=> const SyncOfflineOrder()));
-            }, child: const Text("Sync offline order"))
-      ]),
+      body: Center(
+        child: Column(children: [
+          ElevatedButton(key: const Key("New Orders"),onPressed: () {
+           Navigator.of(context).push(MaterialPageRoute(builder: (ctx)=> const NewOrder()));
+          }, child: const Text("New Orders")),
+          ElevatedButton(
+              key: const Key("Sync offline order"),
+              onPressed: () {
+                Navigator.of(context).push(MaterialPageRoute(builder: (ctx)=> const SyncOfflineOrder()));
+              }, child: const Text("Sync offline order"))
+        ]),
+      ),
     );
   }
 }
