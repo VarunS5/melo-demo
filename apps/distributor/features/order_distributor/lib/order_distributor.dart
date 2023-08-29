@@ -1,4 +1,4 @@
-library order_distributor;
+library order;
 
 import 'package:flutter/material.dart';
 

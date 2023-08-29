@@ -6,8 +6,8 @@ dependency_overrides:
   auth:
     path: ../../packages/auth
   order_common:
-    path: ../../packages/order_common
+    path: ../../packages/order
   order_distributor:
-    path: ../../packages/order_distributor
+    path: ../../apps/distributor/features/order_distributor
   order_retailer:
-    path: ../../packages/order_retailer
+    path: ../../apps/retailer/features/order_retailer

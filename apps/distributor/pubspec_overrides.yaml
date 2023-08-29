@@ -1,8 +1,8 @@
-# melos_managed_dependency_overrides: auth,order_common,order_distributor
+# melos_managed_dependency_overrides: auth,order_common
 dependency_overrides:
   auth:
     path: ../../packages/auth
   order_common:
-    path: ../../packages/order_common
+    path: ../../packages/order
   order_distributor:
-    path: ../../packages/order_distributor
+    path: features/order_distributor
