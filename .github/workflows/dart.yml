@@ -22,6 +22,7 @@ jobs:
       with:
         flutter-version: '3.7.7'
         channel: 'stable'
+    - run: dart pub global activate melos
     - run: melos bs
     - run: melos run build:distributor
     
