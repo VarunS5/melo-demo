@@ -1,4 +1,3 @@
-const API_KEY = "sdhjasd7678dsavvghdvhas7dsasadjvjabs87td8sat87dvasjvduas78dt8sa";
 _bar()  {
   _Foo();
   printHello();
