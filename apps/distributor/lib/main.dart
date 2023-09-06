@@ -24,15 +24,12 @@ class MyApp extends StatelessWidget {
   }
 }
 
-
 class DistributorApp extends StatelessWidget {
   const DistributorApp({super.key});
 
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-        home: DistributorHome()
-    );
+    return const MaterialApp(home: DistributorHome());
   }
 }

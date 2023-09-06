@@ -1,4 +1,4 @@
-library order;
+library order_distributor;
 
 import 'package:flutter/material.dart';
 
@@ -11,12 +11,7 @@ class SyncOfflineOrder extends StatelessWidget {
       appBar: AppBar(
         title: const Text("Offline order"),
       ),
-      body: Center(
-        child: Column(children: [
-          Text("Screen to sync offline order")
-        ]),
-      ),
+      body: Column(children: [Text("Screen to sync offline order")]),
     );
   }
-
 }

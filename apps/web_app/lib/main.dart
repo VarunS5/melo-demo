@@ -1,7 +1,6 @@
+import 'package:auth/auth.dart';
 import 'package:distributor/main.dart';
 import 'package:flutter/material.dart';
-import 'package:auth/auth.dart';
-import 'package:retailer/main.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +18,8 @@ class MyApp extends StatelessWidget {
         title: "Pharmarack App",
         onLoginPressed: (context) {
           //condition
-          Navigator.of(context).push(MaterialPageRoute(builder: (ctx) => const DistributorApp()));
+          Navigator.of(context).push(
+              MaterialPageRoute(builder: (ctx) => const DistributorApp()));
         },
       ),
     );
