@@ -1,7 +1,6 @@
 name: pharmarack_demo_app
 
 packages:
-  - "**"
   - packages/*
   - apps/*
 
@@ -12,6 +11,12 @@ scripts:
 
   pub_get:
     exec: flutter pub get
+
+  clean:
+    exec: flutter clean
+
+  test:
+    exec: flutter test
 
   integration_test:
     exec: flutter test integration_test
