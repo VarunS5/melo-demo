@@ -44,3 +44,4 @@ app.*.map.json
 /android/app/release
 
 packages/**/android/local.properties
+packages/**/build
