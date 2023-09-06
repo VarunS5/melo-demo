@@ -1,222 +1,237 @@
 fileignoreconfig:
-
+- filename: .metadata
+  checksum: 0f16a8b7c6a2c80298851d561e8eceac3055641c7fd5996827401c6c775d4ca5
+- filename: apps/distributor/.metadata
+  checksum: 102107c633d470f1c3f322f6a20668af720ca1625dc3c274ab846443716d85a1
+- filename: apps/distributor/features/order_distributor/.metadata
+  checksum: 91d54b93a009f49e2014c9efbb0101b00f5769f37fea5cd4619c9da18fbd9d99
+- filename: apps/retailer/.metadata
+  checksum: f7c979198434771f9c5a820e7c221c859506d87c4ef97e8bfcb4a7f774f5fd12
+- filename: apps/retailer/features/order_retailer/.metadata
+  checksum: c6045fb6f8e17c309d0647b8cf55e6045e5f152c0716f2be5efbd87e85cc966b
+- filename: apps/web_app/.metadata
+  checksum: 5d557d9b36231128300fd011f67cee6b63362bcf1d184e981b73c4c937db94f0
+- filename: packages/auth/.metadata
+  checksum: 6fe87479c3209b5bd5adc86cc9b00307f988f4f2f26283418bf97b05ceee9c90
+- filename: packages/order/.metadata
+  checksum: 04926fa7abde9909d3a3a5e7d3b3e52dfbb7b10c1551dc2b7b63d05fd11bf7cb
+- filename: pubspec.lock
+  checksum: 2bbb8bc2e1c4ee32e77c653aade718f48d8e45ee2ed7619e516330041185aca6
+version: "1.0"
+fileignoreconfig:
+- filename: apps/distributor/features/order_distributor/ios/Flutter/flutter_export_environment.sh
+  checksum: 357098399d8732f95e413333638907f1a27cc997279af1cf5e1df281f0df894f
+- filename: apps/distributor/features/order_distributor/macos/Flutter/ephemeral/flutter_export_environment.sh
+  checksum: 85db37242137d901027e51b3a10c952b4780962d078cc51f6202df9699a0e5a5
+- filename: apps/retailer/features/order_retailer/ios/Flutter/flutter_export_environment.sh
+  checksum: 55a1e09430e3e4fae028135b85122bc665d747843f9050a0d8269b21dc8bf533
+- filename: apps/retailer/features/order_retailer/macos/Flutter/ephemeral/flutter_export_environment.sh
+  checksum: e509c5835e813d5b0d4e6a1645df7161f1ead43726116b0be1cfd8a63469f449
+- filename: packages/order/ios/Flutter/flutter_export_environment.sh
+  checksum: 7a61aba842f33b90891f284f025be79b7db7afc1d291de3d83450c68acbaf73b
+- filename: packages/order/macos/Flutter/ephemeral/flutter_export_environment.sh
+  checksum: bd5945dd10caaca9409de0a86c6033cc89709b4bd9a030ff36f9589c05fcb8a5
+- filename: apps/distributor/windows/runner/resources/app_icon.ico
+  checksum: fa1d20f1c5e4a1363ed498376c7ade0d09dcbc5ce2cb4291189c917c5daa79ce
+- filename: apps/retailer/windows/runner/resources/app_icon.ico
+  checksum: a5d43a1d1e681b093932e5ebaaa60a004e1758f0ff378091c0e444c4add7f31f
 - filename: apps/distributor/pubspec.lock
-  checksum: 02c2b2515e29dfeaa5c21919622a9e8dc646804a8c681cbf718bed80f58eda54
+  checksum: 8eab704d0fbdea77ff03835241c2783eb601c3ddc865f58c8cde1e2426b0f08d
 - filename: apps/retailer/pubspec.lock
-  checksum: 638e218abaca1fea08005f5d66d27389971c08a2468fac1e8d2ea9c2e508d42f
+  checksum: f0e654793fbc8393bfdb5ea118fd05e00d861df3b54391c0d3be64d336cb7311
+- filename: apps/web_app/pubspec.lock
+  checksum: 16fba15a171c4d15ca6bf2be46572622419ad88cb9c4a65b859ae75e2c2efdd7
 - filename: pubspec.lock
-  checksum: 58400d4d822528a9bae5b275430eb6326ada7f05a2ed850bcc2094dc7aa5a020
+  checksum: 2bbb8bc2e1c4ee32e77c653aade718f48d8e45ee2ed7619e516330041185aca6
 - filename: .metadata
   checksum: 0f16a8b7c6a2c80298851d561e8eceac3055641c7fd5996827401c6c775d4ca5
 - filename: apps/distributor/.metadata
   checksum: 102107c633d470f1c3f322f6a20668af720ca1625dc3c274ab846443716d85a1
-- filename: packages/order_common/.metadata
-  checksum: 946dda8dda5288ce2efbc3c47a0aa782b13448a64a51e84f032301ae27d8b04e
+- filename: apps/distributor/features/order_distributor/.metadata
+  checksum: 91d54b93a009f49e2014c9efbb0101b00f5769f37fea5cd4619c9da18fbd9d99
 - filename: apps/retailer/.metadata
   checksum: f7c979198434771f9c5a820e7c221c859506d87c4ef97e8bfcb4a7f774f5fd12
-- filename: packages/order_distributor/.metadata
-  checksum: 8f99d980ccee883c7579281f23e5235375ec3d127c3db05dc944a61302e148e8
+- filename: apps/retailer/features/order_retailer/.metadata
+  checksum: c6045fb6f8e17c309d0647b8cf55e6045e5f152c0716f2be5efbd87e85cc966b
 - filename: packages/auth/.metadata
   checksum: 6fe87479c3209b5bd5adc86cc9b00307f988f4f2f26283418bf97b05ceee9c90
-- filename: packages/order_retailer/.metadata
-  checksum: 0a394511246312678627cadce2dbf32d3725012b268ace88518c0b445a6ebeac
-
-- filename: pubspec.lock
-  checksum: 58400d4d822528a9bae5b275430eb6326ada7f05a2ed850bcc2094dc7aa5a020
-- filename: .metadata
-  checksum: 0f16a8b7c6a2c80298851d561e8eceac3055641c7fd5996827401c6c775d4ca5
-- filename: apps/distributor/.metadata
-  checksum: 102107c633d470f1c3f322f6a20668af720ca1625dc3c274ab846443716d85a1
-- filename: packages/order_distributor/.metadata
-  checksum: 8f99d980ccee883c7579281f23e5235375ec3d127c3db05dc944a61302e148e8
-- filename: apps/retailer/.metadata
-  checksum: f7c979198434771f9c5a820e7c221c859506d87c4ef97e8bfcb4a7f774f5fd12
-- filename: packages/order_retailer/.metadata
-  checksum: 0a394511246312678627cadce2dbf32d3725012b268ace88518c0b445a6ebeac
-- filename: packages/order_common/.metadata
-  checksum: 946dda8dda5288ce2efbc3c47a0aa782b13448a64a51e84f032301ae27d8b04e
-- filename: packages/auth/.metadata
-  checksum: 6fe87479c3209b5bd5adc86cc9b00307f988f4f2f26283418bf97b05ceee9c90
-
-
-
+- filename: packages/order/.metadata
+  checksum: 04926fa7abde9909d3a3a5e7d3b3e52dfbb7b10c1551dc2b7b63d05fd11bf7cb
+- filename: apps/web_app/.metadata
+  checksum: 5d557d9b36231128300fd011f67cee6b63362bcf1d184e981b73c4c937db94f0
+- filename: githooks/bin/talisman
+  checksum: 31166ccb7cd4cb5678bb8204465e60f28b8f20566521fcff43dfe4a1f4f9fda5
+- filename: apps/distributor/android/app/build.gradle
+  checksum: 723d296ca1a8e1ec65c42aca2c121593299878d7a3c7495c0190d0ab2d9aee0a
+- filename: apps/distributor/features/order_distributor/pubspec.yaml
+  checksum: d3673434760c5173d28db199f0578f702d30b562cf646f680c54910485ba5353
+- filename: apps/distributor/lib/distributor_home.dart
+  checksum: 69fbd34633cca219991e5d59166dd2e7db055fa13c8e8aa431ad5c8bee4b41fb
+- filename: apps/distributor/features/order_distributor/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
+  checksum: 52d4b3f35316158232e7db75401dce158016e742727406a2b34bc10270819353
+- filename: apps/distributor/windows/runner/win32_window.cpp
+  checksum: 4a5888095d8ae67e45612138219ffcef26580b556bc71d477a45d7b909eee835
+- filename: apps/retailer/features/order_retailer/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
+  checksum: 5d15130f7287cce21ee7c5ee6e76207b0f6a43bcdbb7399943dcf19f7050d0d2
+- filename: apps/retailer/android/app/build.gradle
+  checksum: def1c09f29311513870ba1ac496190e2f435c502ae7691eeb443dd1f400efe5c
+- filename: apps/retailer/lib/retailer_home.dart
+  checksum: ef79b64bcaf835ce99ca71e200d1b183c58e97f322055e5f0a966d9b87dc9564
+- filename: apps/retailer/windows/runner/win32_window.cpp
+  checksum: 3e6d4d6656d956f3f235f9eebf46f9d4cbb16cc30c6028852ea4788c14c3cd73
+- filename: packages/order/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
+  checksum: c6725e0450ab951355626ce9ec08fcdb9f09aea7954cda03afb0660b776b22a7
+- filename: apps/retailer/pubspec.yaml
+  checksum: 4f0ab8ff6c6e870184d77857c5a9a049b101cb7d342af96ca5ab5c947c07b479
+- filename: apps/retailer/test/widget_test.dart
+  checksum: 562e14f5307404d8bef3b52ed3b06dc937345a24e195bf96d2c167e853b2549f
+- filename: apps/web_app/pubspec.yaml
+  checksum: 776e372d927ca433f5cf2e391201c9104c21424456924a869eff75854df6d23a
+- filename: packages/auth/lib/auth.dart
+  checksum: 3d843448a0c376ec73f08f392b353392abbbba11c8097a53b665e55aedf3bb3d
+- filename: apps/retailer/features/order_retailer/pubspec.yaml
+  checksum: 6eef6f3fab98f4d3fbb20f2080c480c2a8e7e8c22fa02f27f3d6111ff855bdd0
+- filename: packages/order/pubspec.yaml
+  checksum: 6b2e6af2d016869e378ee9196c6b421ad74575897135a0ea2103a7dc0b3921cb
+- filename: apps/distributor/test/widget_test.dart
+  checksum: 66934481d7309e3d88ee2d151264b5908c58914e196634766f14958572a25528
+- filename: packages/auth/pubspec.yaml
+  checksum: 07331997efa2efc1cd9234eea80c83a555b73f294a142d18878d7ca3108d70ea
+- filename: apps/distributor/pubspec.yaml
+  checksum: c6d56c454a148f3c7f062b8904e150da6b926c9e7ccbd7bfa3a30c2a38c8f1ac
 - filename: packages/auth/ios/Flutter/flutter_export_environment.sh
   checksum: 0f785ab359a27de0cef25b9a8d52c85f651cf730e586fc93a01b57e12bdc2436
 - filename: packages/auth/macos/Flutter/ephemeral/flutter_export_environment.sh
   checksum: 983d677b7f99e8e520d1eaac322ac176cd53fee34c623660cd8188f66d25e3ec
-- filename: packages/order_common/ios/Flutter/flutter_export_environment.sh
-  checksum: 0f37ea0a4722a72220a18dee7aba5be554a496a48de891bb961b18490a485cb9
-- filename: packages/order_common/macos/Flutter/ephemeral/flutter_export_environment.sh
-  checksum: 55ce0956a4713800fbcf8f141cc6be94afffd7e76832d11d01d77a7c700fd5f8
-- filename: packages/order_distributor/ios/Flutter/flutter_export_environment.sh
-  checksum: a28562779be3a9fa9000b4e33aa27e089bf4da2aed5a2e137d4d5ce2250f896d
-- filename: packages/order_distributor/macos/Flutter/ephemeral/flutter_export_environment.sh
-  checksum: 40b7590ec09c968f54a48484fe07cb4f4185002562e98d32a1e4546382dd2b59
-- filename: packages/order_retailer/ios/Flutter/flutter_export_environment.sh
-  checksum: 76b7b250c45bd08657e5b34e4dcb51a5ad47ea42518749d2df39f2e06920b2aa
-- filename: packages/order_retailer/macos/Flutter/ephemeral/flutter_export_environment.sh
-  checksum: b12700bf5d33cef3ecc52f032d09ef3d56c68fc5520c44489122f71ae414f582
-- filename: apps/distributor/macos/Runner.xcodeproj/project.pbxproj
-  checksum: c38d7768059d72a07090e8ece9abbb3c441b773cb2444a658dda44db76bea924
-- filename: apps/distributor/ios/Runner.xcodeproj/project.pbxproj
-  checksum: 73bd5b2ad74889c4eb153995e14504f01d49eef72000b95d2d6999b6f457787c
-- filename: apps/distributor/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme
-  checksum: f1101126e122d31ae445d824187078beadac4492a60e4506bc56f7a0ea76aec6
 - filename: apps/distributor/macos/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme
   checksum: ba1e72ad4ea62a777a15701d685e095b0e864784440efa95f8c31cc65c41de8b
-- filename: apps/retailer/ios/Runner.xcodeproj/project.pbxproj
-  checksum: 15516c483c89b6cde40cc681323b5692044710e2c7d21233c6177cfd1fcc2e4e
-- filename: ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme
-  checksum: 2366cfe5a560f342597509a1d4f510087e43ca10b952b3330bcb89ee6a7b015b
-- filename: apps/retailer/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme
-  checksum: 716adafd449cdbe5154e03be34fe5f10b58bb8fe9c44334353aac6eab8a40e90
-- filename: ios/Runner.xcodeproj/xcshareddata/xcschemes/distributor.xcscheme
-  checksum: 45322539b64df746484e1597068b9f8ac90924d5616a167c836229fbaf1d59a0
-- filename: ios/Runner.xcodeproj/project.pbxproj
-  checksum: cd2359718aa000a8248fbab11627ee5c714565f266fce70fcbb871360b895d64
-- filename: ios/Runner.xcodeproj/xcshareddata/xcschemes/retailer.xcscheme
-  checksum: b3c096d8ce26395d3ad3a000d835e7e45bee793428c944430817d9966b120336
+- filename: apps/distributor/macos/Runner.xcodeproj/project.pbxproj
+  checksum: c38d7768059d72a07090e8ece9abbb3c441b773cb2444a658dda44db76bea924
+- filename: apps/distributor/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme
+  checksum: f1101126e122d31ae445d824187078beadac4492a60e4506bc56f7a0ea76aec6
+- filename: apps/distributor/ios/Runner.xcodeproj/project.pbxproj
+  checksum: 73bd5b2ad74889c4eb153995e14504f01d49eef72000b95d2d6999b6f457787c
 - filename: apps/retailer/macos/Runner.xcodeproj/project.pbxproj
   checksum: dbc198cac8a0cfacc486639528d0785b299b2e1997f9a5d6c5ace937349cb50d
-- filename: macos/Runner.xcodeproj/project.pbxproj
-  checksum: d6a69dec7284189e874a9fc3820df280a186df1544142b11f73e4dd226f1f00c
 - filename: apps/retailer/macos/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme
   checksum: 9459ca29df8abfe581c2fd872ac1dbbc07effcc734a459772c02b0474b9435eb
-- filename: macos/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme
-  checksum: 42b0aa76772bfad2d9392810677187fbd904df710bc9cc3a2020097bfd05e5e7
-- filename: apps/distributor/pubspec.lock
-  checksum: 02c2b2515e29dfeaa5c21919622a9e8dc646804a8c681cbf718bed80f58eda54
-- filename: apps/retailer/pubspec.lock
-  checksum: 638e218abaca1fea08005f5d66d27389971c08a2468fac1e8d2ea9c2e508d42f
+- filename: apps/retailer/ios/Runner.xcodeproj/project.pbxproj
+  checksum: 15516c483c89b6cde40cc681323b5692044710e2c7d21233c6177cfd1fcc2e4e
+- filename: apps/retailer/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme
+  checksum: 716adafd449cdbe5154e03be34fe5f10b58bb8fe9c44334353aac6eab8a40e90
 - filename: pubspec.lock
-  checksum: 58400d4d822528a9bae5b275430eb6326ada7f05a2ed850bcc2094dc7aa5a020
+  checksum: 2bbb8bc2e1c4ee32e77c653aade718f48d8e45ee2ed7619e516330041185aca6
 - filename: .metadata
   checksum: 0f16a8b7c6a2c80298851d561e8eceac3055641c7fd5996827401c6c775d4ca5
 - filename: apps/distributor/.metadata
   checksum: 102107c633d470f1c3f322f6a20668af720ca1625dc3c274ab846443716d85a1
-- filename: packages/auth/.metadata
-  checksum: 6fe87479c3209b5bd5adc86cc9b00307f988f4f2f26283418bf97b05ceee9c90
+- filename: apps/distributor/features/order_distributor/.metadata
+  checksum: 91d54b93a009f49e2014c9efbb0101b00f5769f37fea5cd4619c9da18fbd9d99
+- filename: apps/retailer/features/order_retailer/.metadata
+  checksum: c6045fb6f8e17c309d0647b8cf55e6045e5f152c0716f2be5efbd87e85cc966b
 - filename: apps/retailer/.metadata
   checksum: f7c979198434771f9c5a820e7c221c859506d87c4ef97e8bfcb4a7f774f5fd12
-- filename: packages/order_retailer/.metadata
-  checksum: 0a394511246312678627cadce2dbf32d3725012b268ace88518c0b445a6ebeac
-- filename: packages/order_common/.metadata
-  checksum: 946dda8dda5288ce2efbc3c47a0aa782b13448a64a51e84f032301ae27d8b04e
-- filename: packages/order_distributor/.metadata
-  checksum: 8f99d980ccee883c7579281f23e5235375ec3d127c3db05dc944a61302e148e8
-- filename: apps/distributor/macos/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
-  checksum: 2c5192600c95257b5e032fc1b35650344f9020aaecc08af4281547025d43df67
-- filename: apps/distributor/macos/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
-  checksum: 5ca854db93ba8277ecfd39e43c7870f7fffde0fdd0aa170df1ed48d4b1d4f2a6
-- filename: apps/distributor/macos/Runner/DebugProfile.entitlements
-  checksum: fc223cde980d2c0c0edb7a405d338ee88e722453e14ee011c40e24416ccaa406
-- filename: apps/distributor/macos/Runner/Info.plist
-  checksum: 0019e41e5ad8bbc35f9a71d56172bf70b4bb31eb8fbc9f84c0a090cda97aba9d
-- filename: apps/distributor/ios/Flutter/AppFrameworkInfo.plist
-  checksum: c0630a46fe035b0ae9fa31c23a933b21f6ff2c3dddcc9ef5e63fafbf19145a49
-- filename: apps/distributor/macos/Runner/Release.entitlements
-  checksum: fa401e31bbedfaa5b8324483e1561a1068770a666682abba6a78d7d3d491562e
-- filename: ios/Runner/Base.lproj/LaunchScreen.storyboard
-  checksum: f49bc04fa78a08519364188d72f38c20839c02cc648a98e2b4c472e778e514d5
-- filename: ios/Runner/Base.lproj/Main.storyboard
-  checksum: 94b5ccc5db437138758c35c2e94123553b98463ccbcf606b6a0668d520650e44
-- filename: ios/Runner/Info.plist
-  checksum: 9c1db19040983bfd6c47d25c36817dcd8b84a7be21208b222c08e59e5317cdfc
-- filename: apps/distributor/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
-  checksum: 706e9648250ff3927d9b1c55995e00227a72bfd462b75625e402eba049d6d161
-- filename: apps/distributor/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
-  checksum: 315afc95ef9019047f818663d174cb7837d188d2ff0b6f08623a42607dff3e66
-- filename: apps/distributor/macos/Runner/Base.lproj/MainMenu.xib
-  checksum: bc13e6f1f55558395e5dbabb5fbf986e4fe2f3024e7f6cb1dbec75a787900ad5
-- filename: apps/distributor/windows/runner/utils.h
-  checksum: 38010bc4a85fbf066ca158370b53c84c8fd3ace2e67e362295c3ff81f988e225
-- filename: macos/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
-  checksum: 4425f9f113268775a7d5bd9d685929b91a059c97f08f8f46ab054a01358f9108
-- filename: macos/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
-  checksum: 5f76c201fe320fc40d9deb00dd9218c8f8fb6919bd62ce75282165b5f49d72ee
-- filename: apps/retailer/ios/Flutter/AppFrameworkInfo.plist
-  checksum: 2e29d0d8f0a87856dbc86239207dc61a6142e8b77d0418f15c2ce4990975efa7
-- filename: apps/distributor/ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
-  checksum: d6d252d5efa8fed311460ada133d49c8ccc7862d2310fe124e58b99554130a33
+- filename: apps/web_app/.metadata
+  checksum: 5d557d9b36231128300fd011f67cee6b63362bcf1d184e981b73c4c937db94f0
+- filename: packages/order/.metadata
+  checksum: 04926fa7abde9909d3a3a5e7d3b3e52dfbb7b10c1551dc2b7b63d05fd11bf7cb
+- filename: packages/auth/.metadata
+  checksum: 6fe87479c3209b5bd5adc86cc9b00307f988f4f2f26283418bf97b05ceee9c90
 - filename: apps/distributor/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
   checksum: 5e1f8f38ed4858af414b514f2b2dcea6e2ec14b15f2f3b430b5d9e1130dc67ad
-- filename: apps/retailer/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
-  checksum: 2dfde5f7df9c33677a6ed8cc37069a1325d1410ef1d360c634fd4e652f2c0bfd
-- filename: apps/retailer/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
-  checksum: 681aa2547daedcae1297f1be1e8295909768b8c17c86c8b9d60383f176fd6470
+- filename: apps/distributor/ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+  checksum: d6d252d5efa8fed311460ada133d49c8ccc7862d2310fe124e58b99554130a33
 - filename: apps/distributor/ios/Runner/Base.lproj/LaunchScreen.storyboard
   checksum: 11a30e5558430d5e82a931ef8c5ea7112fc00cc8abc7873db67b630f4f7ff2e5
 - filename: apps/distributor/ios/Runner/Base.lproj/Main.storyboard
   checksum: d8f0c0f80944c5a88a0a440f8ea08480d0e2c0e7a04d4e591e8ee69e35fa2987
-- filename: apps/retailer/ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
-  checksum: 4d56dee87dd03512e943618ab21c9a72683ce51f874fed38867baae16cb59b90
-- filename: apps/retailer/ios/Runner/Info.plist
-  checksum: 46255f5f692230957b5e26bb7c73ee7c424fffdf44a5ce72717fe581f401e346
 - filename: apps/distributor/ios/Runner/Info.plist
   checksum: fd04df34feb7ead5fa1fa14c9db4ed9a99a8f9357491c2a307456209c61a071e
-- filename: apps/retailer/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
-  checksum: 706fdae7f52ae093d8617b12d13b3ff267596e310fb9e5596e4114a978fc270a
 - filename: apps/retailer/ios/Runner/Base.lproj/LaunchScreen.storyboard
   checksum: c5e3e690cd7ffa770526a7c1703fcc0b6bb5ad600fb557381fcb558b913ae6a5
 - filename: apps/retailer/ios/Runner/Base.lproj/Main.storyboard
   checksum: f4e1ed54a44d8af6e2d9bfaaca6a54cbb3639be7b1b639766e07bfed2218bc97
-- filename: apps/retailer/macos/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
-  checksum: 50bb398cb6a97984939735f46f777b111d51a602cceb65624cd8129d6a115a19
+- filename: apps/retailer/ios/Runner/Info.plist
+  checksum: 46255f5f692230957b5e26bb7c73ee7c424fffdf44a5ce72717fe581f401e346
+- filename: apps/distributor/ios/Flutter/AppFrameworkInfo.plist
+  checksum: c0630a46fe035b0ae9fa31c23a933b21f6ff2c3dddcc9ef5e63fafbf19145a49
+- filename: apps/distributor/macos/Runner/Release.entitlements
+  checksum: fa401e31bbedfaa5b8324483e1561a1068770a666682abba6a78d7d3d491562e
+- filename: apps/distributor/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+  checksum: 706e9648250ff3927d9b1c55995e00227a72bfd462b75625e402eba049d6d161
+- filename: apps/distributor/macos/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+  checksum: 2c5192600c95257b5e032fc1b35650344f9020aaecc08af4281547025d43df67
+- filename: apps/distributor/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+  checksum: 315afc95ef9019047f818663d174cb7837d188d2ff0b6f08623a42607dff3e66
+- filename: apps/distributor/macos/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+  checksum: 5ca854db93ba8277ecfd39e43c7870f7fffde0fdd0aa170df1ed48d4b1d4f2a6
+- filename: apps/distributor/macos/Runner/Base.lproj/MainMenu.xib
+  checksum: bc13e6f1f55558395e5dbabb5fbf986e4fe2f3024e7f6cb1dbec75a787900ad5
+- filename: apps/distributor/macos/Runner/DebugProfile.entitlements
+  checksum: fc223cde980d2c0c0edb7a405d338ee88e722453e14ee011c40e24416ccaa406
+- filename: apps/distributor/windows/runner/utils.h
+  checksum: 38010bc4a85fbf066ca158370b53c84c8fd3ace2e67e362295c3ff81f988e225
+- filename: apps/distributor/macos/Runner/Info.plist
+  checksum: 0019e41e5ad8bbc35f9a71d56172bf70b4bb31eb8fbc9f84c0a090cda97aba9d
 - filename: apps/retailer/macos/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
   checksum: cbbeb64324921caeaf6ab2d068c0565b32095500cda3f1b5c7767cdef800d52a
-- filename: apps/retailer/macos/Runner/Release.entitlements
-  checksum: 9da66a11090de5592ee1ecbf7abf7a353b2ad8ec7d3e66b289c0a23f05e72c70
-- filename: apps/retailer/macos/Runner/DebugProfile.entitlements
-  checksum: 11295129ef8677b6e61f8c988111b19ea1766a53fcff32511e4a38f55beb9cb6
-- filename: apps/retailer/macos/Runner/Info.plist
-  checksum: 2f20bf1e5aa892a364ca55645c78234a90264b0db2b25c9c954e0d65dc2fe521
-- filename: macos/Runner/DebugProfile.entitlements
-  checksum: 93edade8d28fef5232a8b5398fa4b8fc3d880f54df893c8414354a4e68c96267
-- filename: macos/Runner/Info.plist
-  checksum: 486e6317fd1a9a0922bf9fa7e2d94704d5f0c0976743acd8eb9f5338843e59c3
-- filename: macos/Runner/Release.entitlements
-  checksum: 0b88736110bc2ebcbd934b02452616b0c05af5c9cf52301626b2ee6126da1cd7
+- filename: apps/retailer/macos/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+  checksum: 50bb398cb6a97984939735f46f777b111d51a602cceb65624cd8129d6a115a19
+- filename: apps/retailer/ios/Flutter/AppFrameworkInfo.plist
+  checksum: 2e29d0d8f0a87856dbc86239207dc61a6142e8b77d0418f15c2ce4990975efa7
+- filename: apps/retailer/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+  checksum: 681aa2547daedcae1297f1be1e8295909768b8c17c86c8b9d60383f176fd6470
+- filename: apps/retailer/ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+  checksum: 4d56dee87dd03512e943618ab21c9a72683ce51f874fed38867baae16cb59b90
+- filename: apps/retailer/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+  checksum: 706fdae7f52ae093d8617b12d13b3ff267596e310fb9e5596e4114a978fc270a
+- filename: apps/retailer/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+  checksum: 2dfde5f7df9c33677a6ed8cc37069a1325d1410ef1d360c634fd4e652f2c0bfd
 - filename: apps/retailer/windows/runner/utils.h
   checksum: f7bf5b1e9bba39f5ebf1225cc8b8026a568f59e17e5182e70ed1a766f89f1703
 - filename: apps/retailer/macos/Runner/Base.lproj/MainMenu.xib
   checksum: 84bf390e0a785fe4e632307900c7de8a92f9e6976c55ce9d340f0d3698d14de8
-- filename: ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
-  checksum: dfed3029d1da6278d8c1d9d1b4c66716b05f42eb2e6c581b69e9e8e86c301b64
-- filename: ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
-  checksum: 891e0955785d7c794dc35f94649e5cee7d2dad6e2506db4081a858f50cd793c7
-- filename: macos/Runner/Base.lproj/MainMenu.xib
-  checksum: ce97a8c93df7777bc0a317f04ac39b64fe747986c8313635a161a6b9157558d1
-- filename: ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
-  checksum: e9662a27453bd6754e1def1cfb4d368c73dda5e71522dd74b4b0b6d6e6b1866c
-- filename: ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
-  checksum: 7548a7b4f16473684319a716085df37d446b0af5bd895704a7f45b8a97d65a64
+- filename: apps/retailer/macos/Runner/DebugProfile.entitlements
+  checksum: 11295129ef8677b6e61f8c988111b19ea1766a53fcff32511e4a38f55beb9cb6
+- filename: apps/retailer/macos/Runner/Info.plist
+  checksum: 2f20bf1e5aa892a364ca55645c78234a90264b0db2b25c9c954e0d65dc2fe521
 - filename: packages/auth/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
   checksum: fea32d84e0811f5196e6556d0818596e7e72f44f5d3e461f5d475fa92cfb9506
-- filename: ios/Flutter/AppFrameworkInfo.plist
-  checksum: 887b307086f93f0281a07bfcb081d6c4ae12a4853394fe8fdc80e21ea312fd87
-- filename: packages/order_retailer/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
-  checksum: a6522eee2da959edbefc838f98234f4ca9e1e95be491a822b93f1de4cc8e6e47
-- filename: packages/order_common/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
-  checksum: 4ddfd559087ef9053d71eed6275f46e124db6a0bba2b90875b46e8f81ccf8553
-- filename: windows/runner/utils.h
-  checksum: f647858a48d3e0eb9bbbf6a4b6598a61ffba6a7ba365d36dba8525198693a40f
-- filename: packages/order_distributor/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
-  checksum: ba6bbfea6b7c03177add170835873e1c1a0aec6b688657081bfb511959a968d3
+- filename: apps/retailer/macos/Runner/Release.entitlements
+  checksum: 9da66a11090de5592ee1ecbf7abf7a353b2ad8ec7d3e66b289c0a23f05e72c70
 - filename: pubspec.lock
-  checksum: 58400d4d822528a9bae5b275430eb6326ada7f05a2ed850bcc2094dc7aa5a020
+  checksum: 2bbb8bc2e1c4ee32e77c653aade718f48d8e45ee2ed7619e516330041185aca6
+  ignore_detectors: [filename, filesize]
 - filename: .metadata
   checksum: 0f16a8b7c6a2c80298851d561e8eceac3055641c7fd5996827401c6c775d4ca5
+  ignore_detectors: [filename, filesize]
 - filename: apps/distributor/.metadata
   checksum: 102107c633d470f1c3f322f6a20668af720ca1625dc3c274ab846443716d85a1
-- filename: packages/order_distributor/.metadata
-  checksum: 8f99d980ccee883c7579281f23e5235375ec3d127c3db05dc944a61302e148e8
+  ignore_detectors: [filename, filesize]
+- filename: apps/distributor/features/order_distributor/.metadata
+  checksum: 91d54b93a009f49e2014c9efbb0101b00f5769f37fea5cd4619c9da18fbd9d99
+  ignore_detectors: [filename, filesize]
 - filename: apps/retailer/.metadata
   checksum: f7c979198434771f9c5a820e7c221c859506d87c4ef97e8bfcb4a7f774f5fd12
+  ignore_detectors: [filename, filesize]
+- filename: apps/retailer/features/order_retailer/.metadata
+  checksum: c6045fb6f8e17c309d0647b8cf55e6045e5f152c0716f2be5efbd87e85cc966b
+  ignore_detectors: [filename, filesize]
+- filename: apps/web_app/.metadata
+  checksum: 5d557d9b36231128300fd011f67cee6b63362bcf1d184e981b73c4c937db94f0
+  ignore_detectors: [filename, filesize]
 - filename: packages/auth/.metadata
   checksum: 6fe87479c3209b5bd5adc86cc9b00307f988f4f2f26283418bf97b05ceee9c90
-- filename: packages/order_retailer/.metadata
-  checksum: 0a394511246312678627cadce2dbf32d3725012b268ace88518c0b445a6ebeac
-- filename: packages/order_common/.metadata
-  checksum: 946dda8dda5288ce2efbc3c47a0aa782b13448a64a51e84f032301ae27d8b04e
+  ignore_detectors: [filename, filesize]
+- filename: packages/order/.metadata
+  checksum: 04926fa7abde9909d3a3a5e7d3b3e52dfbb7b10c1551dc2b7b63d05fd11bf7cb
+  ignore_detectors: [filename, filesize]
+- filename: '*.metadata'
+  checksum: c247b7a146be582eb5f6e902444211b8846edd8402a0e32a6a5a6c7d4da376c6
 
-version: ""
+version: "2.0"
+
+
+
+
+
