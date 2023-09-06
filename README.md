@@ -1,16 +1,13 @@
 # pharmarack_demo_poc_new
 
-A new Flutter project.
+Demo POC for the Pharmarack Project
 
-## Getting Started
+## Run git hooks
 
-This project is a starting point for a Flutter application.
+In order to configure pre-commit and pre-push hooks please follow the below steps:
 
-A few resources to get you started if this is your first Flutter project:
+1. In root directory run the following command:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+       chmod +x configure_git_hooks.sh
+       ./configure_git_hooks.sh
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
